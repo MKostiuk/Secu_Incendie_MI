@@ -1,0 +1,40 @@
+package cuisine
+public
+	with materiel;
+
+	with Base_Types;
+system cuisine_type
+	features
+			cuisine_type_bus_port: requires bus access materiel::bus_knx;
+	cuisine_type_data_out: out data port Base_Types::Integer;
+	cuisine_type_data_in: in data port Base_Types::Integer;
+	end cuisine_type;
+
+
+
+
+system implementation cuisine_type.impl
+	subcomponents
+			cuisine_type_impl_alarme_cuisine: device materiel::alarme;
+
+	cuisine_type_impl_capteur_cuisine: device materiel::capteur_fumee;
+	connections
+			c1_bus: bus access cuisine_type_bus_port -> cuisine_type_impl_alarme_cuisine.alarme_port_bus;
+	c2_bus: bus access cuisine_type_bus_port -> cuisine_type_impl_capteur_cuisine.capteur_fumee_port_bus;
+			c_data_out: port cuisine_type_impl_capteur_cuisine.capteur_fumee_out -> cuisine_type_data_out;
+	c_data_in: port cuisine_type_data_in -> cuisine_type_impl_alarme_cuisine.alarme_signal_in;
+	end cuisine_type.impl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+end cuisine;

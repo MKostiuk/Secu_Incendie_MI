@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="3">
+  <element id="0" manual="true" autoContentsFilter="allow_fundamental">
+    <element id="1" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="4" manual="true" autoContentsFilter="allow_fundamental" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>armoire_bus</seg>
+        </bo>
+        <position x="80.0" y="56.0"/>
+      </element>
+      <element id="5" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>port_entree</seg>
+        </bo>
+        <position y="40.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>armoire_type</seg>
+      </bo>
+      <position x="90.0" y="40.0"/>
+      <size width="288.0" height="77.0"/>
+    </element>
+    <element id="2" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="3" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>armoire_type.impl</seg>
+      </bo>
+      <position x="168.0" y="170.0"/>
+      <size width="139.0" height="24.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>armoire</seg>
+    </bo>
+    <position x="20.0"/>
+    <size width="468.0" height="321.0"/>
+  </element>
+  <config>
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>armoire</seg>
+    </context>
+  </config>
+</diagram:Diagram>

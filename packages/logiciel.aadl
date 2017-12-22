@@ -1,0 +1,50 @@
+package logiciel
+public
+	with Base_Types;
+
+	with Data_Model;
+	thread Calcul_Moyenne
+	features
+			mesure_recue: in data port Base_Types::Integer;
+			mesure_transmise: out event data port Base_Types::Integer;
+	properties 
+		Dispatch_Protocol => Periodic;
+		period => 1000ms;
+	end Calcul_Moyenne;
+
+process Process_principal
+	features
+	entree: in data port Base_Types::Integer;
+
+	end Process_principal;
+
+
+process implementation Process_principal.impl
+
+subcomponents
+			Process_principal_impl_new_subcomponent: thread Calcul_Moyenne.impl;
+
+	end Process_principal.impl;
+
+thread implementation Calcul_Moyenne.impl
+	subcomponents 
+			m1: data Base_Types::Integer {Data_Model::Initial_Value => ("0");};
+			m2: data Base_Types::Integer {Data_Model::Initial_Value => ("0");};
+			m3: data Base_Types::Integer {Data_Model::Initial_Value => ("0");};
+			cpt: data Base_Types::Integer {Data_Model::Initial_Value => ("0");};
+	ANNEX behavior_specification {**
+		states
+  			s0 : initial complete state ;
+		transitions
+  			s0 -[on dispatch]-> s0 {
+  				m3 := m2;
+  				m2 := m1;
+  				m1 := mesure_recue;
+  				cpt := cpt +1;
+  				if (cpt = 3)  mesure_transmise!((m1+m2+m3)/3); cpt :=0 end if
+  			};
+	**};	
+end Calcul_Moyenne.impl;
+
+
+end logiciel;

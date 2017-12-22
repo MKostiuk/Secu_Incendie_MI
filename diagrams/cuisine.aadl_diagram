@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="3">
+  <element id="0" manual="true" autoContentsFilter="allow_all">
+    <element id="1" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="4" manual="true" autoContentsFilter="allow_fundamental" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>cuisine_type_bus_port</seg>
+        </bo>
+        <position x="50.0" y="60.0"/>
+      </element>
+      <element id="6" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cuisine_type_data_in</seg>
+        </bo>
+        <position y="18.0"/>
+      </element>
+      <element id="5" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>cuisine_type_data_out</seg>
+        </bo>
+        <position x="206.0" y="18.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>cuisine_type</seg>
+      </bo>
+      <position x="20.0" y="20.0"/>
+      <size width="341.0" height="81.0"/>
+    </element>
+    <element id="2" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="3" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>cuisine_type.impl</seg>
+      </bo>
+      <position x="120.0" y="160.0"/>
+      <size width="136.0" height="45.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>cuisine</seg>
+    </bo>
+    <position x="20.0"/>
+    <size width="365.0" height="251.0"/>
+  </element>
+  <config>
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>cuisine</seg>
+    </context>
+  </config>
+</diagram:Diagram>

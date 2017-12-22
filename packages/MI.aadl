@@ -1,0 +1,35 @@
+package MI
+public
+	with cuisine;
+
+	with materiel;
+
+	with armoire;
+system MI
+	end MI;
+system implementation MI.impl
+	subcomponents
+			MI_impl_cuisine: system cuisine::cuisine_type.impl;
+	MI_impl_new_subcomponent: bus materiel::bus_knx;
+	MI_impl_armoire: system armoire::armoire_type.impl;
+		MI_impl_Armoir: system armoire::armoire_type.impl;
+		connections
+			busToCuisine: bus access MI_impl_new_subcomponent -> MI_impl_cuisine.cuisine_type_bus_port;
+	MI_impl_new_connection: bus access MI_impl_new_subcomponent -> MI_impl_armoire.armoire_bus;
+	busToArmoire: bus access MI_impl_new_subcomponent -> MI_impl_Armoir.armoire_bus;
+	MI_impl_new_connection2: port MI_impl_cuisine.cuisine_type_data_out -> MI_impl_Armoir.port_entree;
+	end MI.impl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+end MI;

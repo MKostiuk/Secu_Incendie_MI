@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="3">
+  <element id="0" manual="true" autoContentsFilter="allow_fundamental">
+    <element id="3" manual="true" autoContentsFilter="allow_all">
+      <element id="37" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mesure_recue</seg>
+        </bo>
+        <position y="50.0"/>
+      </element>
+      <element id="38" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>mesure_transmise</seg>
+        </bo>
+        <position x="115.0" y="50.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>calcul_moyenne</seg>
+      </bo>
+      <position x="470.0" y="20.0"/>
+      <size width="226.0" height="133.0"/>
+    </element>
+    <element id="43" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="44" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>calcul_moyenne.impl</seg>
+      </bo>
+      <position x="580.0" y="180.0"/>
+      <size width="132.0" height="50.0"/>
+    </element>
+    <element id="6" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="7" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>entree</seg>
+        </bo>
+        <position/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>process_principal</seg>
+      </bo>
+      <position x="20.0" y="210.0"/>
+      <size width="224.0" height="57.0"/>
+    </element>
+    <element id="9" manual="true" autoContentsFilter="allow_all">
+      <element id="24" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>entree</seg>
+        </bo>
+        <position y="50.0"/>
+      </element>
+      <element id="10" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <element id="45" autoContentsFilter="allow_type">
+        <element id="46" autoContentsFilter="allow_fundamental" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>mesure_recue</seg>
+          </bo>
+          <position y="50.0"/>
+        </element>
+        <element id="47" autoContentsFilter="allow_fundamental" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>mesure_transmise</seg>
+          </bo>
+          <position x="157.0" y="50.0"/>
+        </element>
+        <element id="48" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>process_principal_impl_new_subcomponent</seg>
+        </bo>
+        <position x="20.0" y="50.0"/>
+        <size width="268.0" height="107.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>process_principal.impl</seg>
+      </bo>
+      <position x="45.0" y="296.0"/>
+      <size width="528.0" height="173.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>logiciel</seg>
+    </bo>
+    <position x="150.0"/>
+    <size width="722.0" height="469.0"/>
+  </element>
+  <config>
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>logiciel</seg>
+    </context>
+  </config>
+</diagram:Diagram>

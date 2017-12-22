@@ -1,0 +1,27 @@
+package armoire
+public
+	with materiel;
+
+	with logiciel;
+
+	with Base_Types;
+system armoire_type
+	features
+			armoire_bus: requires bus access materiel::bus_knx;
+	port_entree: in data port Base_Types::Integer;
+	end armoire_type;
+
+	system implementation armoire_type.impl
+	subcomponents
+			armoire_processeur: processor materiel::processeur;
+		armoire_process: process logiciel::Process_principal.impl;
+		connections
+			a1_bus: bus access armoire_bus -> armoire_processeur.processeur_port_bus;
+	armoire_type_impl_new_connection: port port_entree -> armoire_process.entree;
+	end armoire_type.impl;
+
+
+
+
+
+end armoire;

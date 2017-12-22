@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="3">
+  <element id="0" manual="true" autoContentsFilter="allow_fundamental">
+    <element id="2" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="7" manual="true" autoContentsFilter="allow_fundamental" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarme_port_bus</seg>
+        </bo>
+        <position x="90.0" y="26.0"/>
+      </element>
+      <element id="12" manual="true" autoContentsFilter="allow_fundamental" dockArea="top">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarme_signal_in</seg>
+        </bo>
+        <position x="260.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>alarme</seg>
+      </bo>
+      <position x="20.0" y="180.0"/>
+      <size width="401.0" height="47.0"/>
+    </element>
+    <element id="1" manual="true" autoContentsFilter="allow_fundamental">
+      <bo>
+        <seg>classifier</seg>
+        <seg>bus_knx</seg>
+      </bo>
+      <position x="250.0" y="240.0"/>
+      <size width="107.0" height="24.0"/>
+    </element>
+    <element id="3" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="10" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>capteur_fumee_out</seg>
+        </bo>
+        <position x="217.0" y="30.0"/>
+      </element>
+      <element id="6" manual="true" autoContentsFilter="allow_fundamental" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>capteur_fumee_port_bus</seg>
+        </bo>
+        <position x="80.0" y="67.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>capteur_fumee</seg>
+      </bo>
+      <position x="10.0" y="23.0"/>
+      <size width="331.0" height="88.0"/>
+    </element>
+    <element id="5" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="9" manual="true" autoContentsFilter="allow_fundamental" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>processeur_port_bus</seg>
+        </bo>
+        <position x="50.0" y="27.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>processeur</seg>
+      </bo>
+      <position x="400.0" y="203.0"/>
+      <size width="278.0" height="48.0"/>
+    </element>
+    <element id="4" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="8" manual="true" autoContentsFilter="allow_fundamental" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>telephonne_port_bus</seg>
+        </bo>
+        <position x="20.0" y="30.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>telephonne</seg>
+      </bo>
+      <position x="360.0" y="50.0"/>
+      <size width="254.0" height="51.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>materiel</seg>
+    </bo>
+    <position x="20.0"/>
+    <size width="678.0" height="271.0"/>
+  </element>
+  <config>
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>materiel</seg>
+    </context>
+  </config>
+</diagram:Diagram>

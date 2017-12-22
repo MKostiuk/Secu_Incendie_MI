@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="3">
+  <element id="0" manual="true" autoContentsFilter="allow_fundamental">
+    <element id="15" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="16" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>bustoarmoire</seg>
+      </bo>
+      <primaryLabelPosition x="-3.0" y="2.0"/>
+    </element>
+    <element id="9" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="10" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>bustocuisine</seg>
+      </bo>
+      <primaryLabelPosition x="-136.0" y="-7.0"/>
+    </element>
+    <element id="28" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="29" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>mi_impl_new_connection2</seg>
+      </bo>
+    </element>
+    <element id="1" autoContentsFilter="allow_fundamental">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+    </element>
+    <element id="12" manual="true" autoContentsFilter="allow_all">
+      <element id="17" autoContentsFilter="allow_fundamental">
+        <element id="18" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>a1_bus</seg>
+        </bo>
+      </element>
+      <element id="26" autoContentsFilter="allow_fundamental">
+        <element id="27" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>armoire_type_impl_new_connection</seg>
+        </bo>
+      </element>
+      <element id="13" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>armoire_bus</seg>
+        </bo>
+        <position y="50.0"/>
+      </element>
+      <element id="25" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>port_entree</seg>
+        </bo>
+        <position y="92.0"/>
+      </element>
+      <element id="22" autoContentsFilter="allow_type">
+        <element id="23" autoContentsFilter="allow_fundamental" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>entree</seg>
+          </bo>
+          <position y="50.0"/>
+        </element>
+        <element id="24" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>armoire_process</seg>
+        </bo>
+        <position x="33.0" y="126.0"/>
+        <size width="194.0" height="107.0"/>
+      </element>
+      <element id="19" autoContentsFilter="allow_type">
+        <element id="20" autoContentsFilter="allow_fundamental" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>processeur_port_bus</seg>
+          </bo>
+          <position y="50.0"/>
+        </element>
+        <element id="21" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>armoire_processeur</seg>
+        </bo>
+        <position x="292.0" y="15.0"/>
+        <size width="128.0" height="107.0"/>
+      </element>
+      <element id="14" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mi_impl_armoir</seg>
+      </bo>
+      <position x="397.0" y="44.0"/>
+      <size width="424.0" height="247.0"/>
+    </element>
+    <element id="2" manual="true" autoContentsFilter="allow_type">
+      <element id="4" autoContentsFilter="allow_fundamental" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>cuisine_type_bus_port</seg>
+        </bo>
+        <position x="42.0" y="159.0"/>
+      </element>
+      <element id="6" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cuisine_type_data_in</seg>
+        </bo>
+        <position y="66.0"/>
+      </element>
+      <element id="5" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>cuisine_type_data_out</seg>
+        </bo>
+        <position x="116.0" y="76.0"/>
+      </element>
+      <element id="3" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mi_impl_cuisine</seg>
+      </bo>
+      <position x="18.0" y="44.0"/>
+      <size width="251.0" height="180.0"/>
+    </element>
+    <element id="7" manual="true" autoContentsFilter="allow_type">
+      <element id="8" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>mi_impl_new_subcomponent</seg>
+      </bo>
+      <position x="120.0" y="290.0"/>
+      <size width="209.0" height="45.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>mi.impl</seg>
+    </bo>
+    <position/>
+    <size width="831.0" height="401.0"/>
+  </element>
+  <config>
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>mi::mi.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

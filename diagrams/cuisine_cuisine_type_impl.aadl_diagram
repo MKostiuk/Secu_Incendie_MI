@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="3">
+  <element id="0" manual="true" autoContentsFilter="allow_type">
+    <element id="15" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="16" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c1_bus</seg>
+      </bo>
+    </element>
+    <element id="17" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="18" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c2_bus</seg>
+      </bo>
+    </element>
+    <element id="25" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="26" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c_data_in</seg>
+      </bo>
+    </element>
+    <element id="23" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="24" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c_data_out</seg>
+      </bo>
+    </element>
+    <element id="14" autoContentsFilter="allow_fundamental" dockArea="bottom">
+      <bo>
+        <seg>feature</seg>
+        <seg>cuisine_type_bus_port</seg>
+      </bo>
+      <position x="130.0" y="360.0"/>
+    </element>
+    <element id="13" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>cuisine_type_data_in</seg>
+      </bo>
+      <position y="110.0"/>
+    </element>
+    <element id="12" autoContentsFilter="allow_fundamental" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>cuisine_type_data_out</seg>
+      </bo>
+      <position x="756.0" y="90.0"/>
+    </element>
+    <element id="1" autoContentsFilter="allow_fundamental">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+    </element>
+    <element id="2" manual="true" autoContentsFilter="allow_type">
+      <element id="4" autoContentsFilter="allow_fundamental" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarme_port_bus</seg>
+        </bo>
+        <position x="79.0" y="69.0"/>
+      </element>
+      <element id="3" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarme_signal_in</seg>
+        </bo>
+        <position y="50.0"/>
+      </element>
+      <element id="5" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>cuisine_type_impl_alarme_cuisine</seg>
+      </bo>
+      <position x="100.0" y="191.0"/>
+      <size width="283.0" height="90.0"/>
+    </element>
+    <element id="6" manual="true" autoContentsFilter="allow_type">
+      <element id="9" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>capteur_fumee_out</seg>
+        </bo>
+        <position x="153.0" y="50.0"/>
+      </element>
+      <element id="7" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>capteur_fumee_port_bus</seg>
+        </bo>
+        <position y="66.0"/>
+      </element>
+      <element id="8" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>cuisine_type_impl_capteur_cuisine</seg>
+      </bo>
+      <position x="390.0" y="175.0"/>
+      <size width="267.0" height="106.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>cuisine_type.impl</seg>
+    </bo>
+    <position x="-150.0" y="10.0"/>
+    <size width="891.0" height="381.0"/>
+  </element>
+  <config>
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>cuisine::cuisine_type.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

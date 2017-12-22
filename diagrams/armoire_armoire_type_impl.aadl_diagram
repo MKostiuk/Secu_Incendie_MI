@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="3">
+  <element id="0" manual="true" autoContentsFilter="allow_all">
+    <element id="7" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="8" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>a1_bus</seg>
+      </bo>
+      <primaryLabelPosition x="-5.0" y="-22.0"/>
+    </element>
+    <element id="15" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="16" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>armoire_type_impl_new_connection</seg>
+      </bo>
+    </element>
+    <element id="2" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>armoire_bus</seg>
+      </bo>
+      <position y="50.0"/>
+    </element>
+    <element id="14" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>port_entree</seg>
+      </bo>
+      <position y="92.0"/>
+    </element>
+    <element id="1" autoContentsFilter="allow_fundamental">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+    </element>
+    <element id="11" manual="true" autoContentsFilter="allow_type">
+      <element id="12" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>entree</seg>
+        </bo>
+        <position y="50.0"/>
+      </element>
+      <element id="13" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>armoire_process</seg>
+      </bo>
+      <position x="418.0" y="180.0"/>
+      <size width="233.0" height="87.0"/>
+    </element>
+    <element id="4" manual="true" autoContentsFilter="allow_type">
+      <element id="5" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>processeur_port_bus</seg>
+        </bo>
+        <position y="50.0"/>
+      </element>
+      <element id="6" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>armoire_processeur</seg>
+      </bo>
+      <position x="160.0" y="60.0"/>
+      <size width="286.0" height="90.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>armoire_type.impl</seg>
+    </bo>
+    <position x="20.0"/>
+    <size width="688.0" height="321.0"/>
+  </element>
+  <config>
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>armoire::armoire_type.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

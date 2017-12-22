@@ -1,0 +1,51 @@
+package materiel
+public
+	with Base_Types;
+bus bus_knx
+	end bus_knx;
+
+device alarme
+	features
+			alarme_port_bus: requires bus access materiel::bus_knx;
+	alarme_signal_in: in data port Base_Types::Integer;
+
+	end alarme;
+
+
+
+
+device capteur_fumee
+	features
+			capteur_fumee_port_bus: requires bus access materiel::bus_knx;
+
+
+	capteur_fumee_out: out data port Base_Types::Integer;
+	end capteur_fumee;
+
+
+
+
+
+
+
+device telephonne
+	features
+			telephonne_port_bus: requires bus access materiel::bus_knx;
+	end telephonne;
+
+
+
+
+
+processor processeur
+	features
+			processeur_port_bus: requires bus access materiel::bus_knx;
+	end processeur;
+
+
+
+
+
+
+
+end materiel;
